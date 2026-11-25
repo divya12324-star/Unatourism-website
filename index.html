@@ -5,6 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f4c75">
+
 <title>Explore Una - Tourism</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -273,5 +276,20 @@ async function getWeather() {
 getWeather();
 
 </script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js")
+      .then((registration) => {
+        console.log("Feel The UNA PWA is ready!");
+      })
+      .catch((error) => {
+        console.log("Service Worker Error:", error);
+      });
+  });
+}
+</script>
+
 </body>
 </html>
