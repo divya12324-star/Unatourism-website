@@ -1,24 +1,27 @@
 
 {
+  "id": "/Unatourism-website/index.html",
   "name": "Feel The UNA",
   "short_name": "Feel UNA",
   "description": "Explore Una, Himachal Pradesh",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/Unatourism-website/index.html",
+  "scope": "/Unatourism-website/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#0f4c75",
   "icons": [
     {
-      "src": ""src": "/Unatourism-website/images/una-logo.png",",
+      "src": "/Unatourism-website/images/una-logo.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "./images/una-logo.png",
+      "src": "/Unatourism-website/images/una-logo.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
