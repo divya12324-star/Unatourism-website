@@ -1,5 +1,5 @@
 
-const CACHE_NAME = "feel-the-una-v1";
+const CACHE_NAME = "feel-the-una-v2";
 
 const FILES_TO_CACHE = [
   "./",
@@ -8,7 +8,7 @@ const FILES_TO_CACHE = [
   "./gallery.html",
   "./style.css",
   "./manifest.json",
-  "./images/una-logo.png"
+  "./una-logo.png"
 ];
 
 self.addEventListener("install", (event) => {
